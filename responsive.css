@@ -1,0 +1,483 @@
+@media (max-width: 1440px) {
+  .services{
+      height: 90svh;
+    }
+  .services-title, .portfolio-title{
+      margin: 0 400px;
+  }
+  .proj-container{
+      height: 35svh;
+  }
+  .proj-img-2{
+      width: 60svh;
+  }
+}
+
+@media (max-width: 1280px) {
+  .desc1{
+    font-size: 2rem;
+  }
+  .description span{
+    font-size: 3rem;
+  }
+  .cursor{
+    height: 1em;
+  }
+  .proj-img-2{
+    width: 65svh;
+  }
+  .contact{
+    height: 50svh;
+    padding-top: 2.5em;
+  }
+}
+
+@media (max-width: 1024px) {
+  .nav-list {
+    display: none;
+  }
+
+  .nav-list.active {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 80px;
+    left: 0;
+    width: 100%;
+    background-color: #18181B;
+    z-index: 999;
+  }
+
+  .nav-list.active ul {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .nav-list.active li {
+    padding: 10px 0;
+  }
+
+  .nav-list.active li a {
+    font-size: 24px;
+  }
+
+  .menu-icon {
+    display: block;
+    cursor: pointer;
+    z-index: 9999;
+  }
+
+  .menu-icon .bar {
+    display: block;
+    width: 30px;
+    height: 3px;
+    background-color: #dcf0ff;
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+
+  .menu-icon.active .bar:nth-child(1) {
+    transform: rotate(-45deg) translate(-9px, 6px);
+  }
+
+  .menu-icon.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .menu-icon.active .bar:nth-child(3) {
+    transform: rotate(45deg) translate(-8px, -8px);
+  }
+
+  .desc1{
+    font-size: 30px;
+  }
+
+  .desc2{
+    font-size: 16px;
+  }
+
+  .img-con > img{
+    height: 25em;
+  }
+
+  .cta-dl, .cta-email{
+    height: 3em;
+    width: 12em;
+  }
+
+  .skill{
+    height: 20em;
+  }
+
+  .hobbies-con{
+    grid-template-columns: repeat(3, 200px);
+    grid-template-rows: repeat(3, 100px);
+  }
+
+  .hobby10{
+    grid-column: 2 / 3;
+  }
+
+  .about-container{
+    height: 100svh;
+  }
+
+  .services{
+    height: 150svh;
+  }
+
+  .services-title, .portfolio-title{
+    width: 60%;
+  }
+
+  .services-con{
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .service{
+    width: 80%;
+    height: auto;
+  }
+
+  .portfolio{
+    height: 100svh;
+  }
+
+  .portfolio-con{
+    gap: 20px;
+  }
+
+  .proj-2{
+    height: 40svh;
+  }
+
+  .contact{
+    height: 70svh;
+  }
+
+  .contact-me{
+    font-size: 1rem;
+    text-align: left;
+  }
+
+  .footer-con {
+    font-size: 0.7rem;
+  }
+
+  .first_section p{
+    text-align: left;
+  }
+
+  .soc-meds-icon-con i{
+    font-size: 1rem;
+    height: 25px;
+    width: 25px;
+  }
+
+  .third_section ul li i{
+    font-size: 1rem;
+    padding: 0.5rem;
+  }
+
+  .footer_txt{
+    font-size: 0.7rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer_content {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 4rem;
+    padding: 3rem 0;
+  }
+  
+  .social_icons i {
+    font-size: 1.3rem;
+    width: 45px;
+    height: 45px;
+  }
+  
+  footer {
+    position: absolute;
+    top: 50%;
+  }  
+  
+  .container h2 {
+    font-size: 4rem;
+    padding-bottom: 5rem;
+    }
+}
+
+@media (max-width: 688px) {
+  .hero-con{
+    flex-direction: column-reverse;
+  }
+
+  .description span{
+    font-size: 2.5rem;
+  }
+  
+  .img-con img{
+    height: 15em;
+  }
+
+  .skill{
+    height: 25em;
+    font-size: 0.6rem;
+  }
+
+  .text-box h2{
+    font-size: 2.5rem;
+    padding-bottom: 20px;
+  }
+  .services-title, .portfolio-title{
+    width: 90%;
+  }
+
+  .contact{
+    height: 90svh;
+    align-items: center;
+  }
+
+  .contact-con{
+    flex-direction: column-reverse;
+  }
+
+  .contact-me{
+    width: 100%;
+    text-align: justify;
+  }
+
+  .footer{
+    position: relative;
+  }
+
+  .footer-con{
+    grid-template-columns: 1fr 2fr 3fr;
+    grid-template-rows: repeat(2,1fr);
+  }
+
+  .second_section{
+    grid-column: 2 / 3;
+    width: 100%;
+  }
+
+  .fourth_section{
+    grid-column: span 3;
+  }
+}
+
+@media (max-width: 600px) {
+  .navbar-con, 
+  .hero-con, 
+  .services-title, 
+  .services-con, 
+  .contact-con,
+  .portfolio-con,
+  .footer-con, 
+  .serv-desc, 
+  .port-desc{
+    margin: 0 50px;
+  }
+
+  .desc1{
+    font-size: 25px;
+  }
+
+  .description span{
+    font-size: 2.3rem;
+  }
+
+  .skills-con{
+    grid-template-rows: repeat(3, 1fr);
+    row-gap: 20px;
+  }
+
+  .skill{
+    height: 13em;
+  }
+
+  .skill1, .skill2 , .skill3{
+    grid-column: span 3;
+  }
+
+  .hobbies-con{
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+  }
+
+  .hobby i{
+    font-size: 1rem;
+  }
+
+  .timeline{
+    margin: 50px auto;
+  }
+
+  .timeline::after{
+    left: 31px;
+  }
+
+  .timeline-container{
+    width: 100%;
+    padding-left: 80px;
+    padding-right: 25px;
+  }
+
+  .text-box{
+    font-size: 13px;
+  }
+
+  .text-box small{
+    margin-bottom: 10px;
+  }
+
+  .right-container{
+    left: 0;
+  }
+
+  .left-container img, .right-container img{
+    left: 10px;
+  }
+  
+  .left-container-arrow, .right-container-arrow{
+    border-right: 15px solid #313338;
+    border-left: 0;
+    left: -15px;
+  }
+
+  .services{
+    height: 170svh;
+  }
+
+  .serv-desc, .port-desc{
+    font-size: 1rem;
+  }
+
+  .contact-me{
+    font-size: 1rem;
+    text-align: justify;
+  }
+}
+
+@media (max-width: 568px) {
+  .text-box h2{
+    font-size: 1.5rem;
+    padding-bottom: 20px;
+  }
+  
+  .proj-img-2{
+    width: 55svh;
+  }
+}
+
+@media (max-width: 414px) {
+  .description span{
+    font-size: 1.7rem;
+  }
+
+  .desc2{
+    text-align: left;
+  }
+
+  .skill{
+    height: 19em;
+  }
+
+  .heading-title{
+    font-size: 1.8rem;
+  }
+
+  .services{
+    height: 130svh;
+  }
+
+  .service i{
+    font-size: 1.5em;
+  }
+
+  .service , .service h3{
+    font-size: 0.8rem;
+  }
+
+  .service p{
+    text-align: center;
+  }
+
+  .proj-1{
+    height: 13em;
+  }
+
+  .proj-2{
+
+    height: 16.5em;
+  }
+
+  .proj-img-1{
+    width: 30svh;
+  }
+
+  .proj-img-2{
+    width: 38svh;
+  }
+
+  .footer-con{
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: repeat(3,1fr);
+  }
+
+  .second_section{
+    grid-column: 2 / 4;
+  }
+}
+
+@media (max-width: 375px) {
+  .font-logo{
+    font-size: 2rem;
+  }
+
+  .desc1{
+    font-size: 1.2rem;
+  }
+
+  .desc2{
+    font-size: 0.7rem;
+  }
+
+  .description span{
+    font-size: 1.4rem;
+  }
+
+  .cta-dl, .cta-email{
+    height: 2.2em;
+    width: 8em;
+  }
+
+  .skill{
+    height: 21em;
+  }
+}
+
+@media (max-width: 360px) {
+  .skill{
+    height: 24em;
+  }
+
+  .services{
+    height: 150svh;
+  }
+
+  .serv-desc, .port-desc{
+    text-align: center;
+  }
+
+  .contact-me{
+    font-size: 0.8rem;
+  }
+
+  .contact-me h3{
+    text-align: left;
+  }
+}
