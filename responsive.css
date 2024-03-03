@@ -461,16 +461,28 @@
 }
 
 @media (max-width: 360px) {
+  .img-con img{
+    height: 10rem;
+  }
   .skill{
     height: 24em;
   }
 
+  .about-container{
+    height: 130svh;
+  }
+
   .services{
-    height: 150svh;
+    height: 170svh;
   }
 
   .serv-desc, .port-desc{
     text-align: center;
+  }
+
+  svg {
+    width: 200px;
+    height: 200px;
   }
 
   .contact-me{
